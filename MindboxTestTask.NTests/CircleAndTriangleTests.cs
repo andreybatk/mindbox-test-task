@@ -2,7 +2,7 @@ using MindboxTestTask.Library;
 
 namespace MindboxTestTask.NTests
 {
-    public class Tests
+    public class CircleAndTriangleTests
     {
         [Test]
         public void CreateTriangle_TriangleInvalid_ShouldThrowArgumentException([Random(-100, 0, 5)] double sideA, [Random(-100, 0, 5)] double sideB, [Random(-100, 0, 5)] double sideC)
